@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url(../HD-wallpaper-nature-night-forest-rocks-lakes-windows-10-s.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 0px 10px 0px gray;
+    top: -4px;
+    border: 1px solid #cccccc;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+input{
+    background:url(../HD-wallpaper-nature-night-forest-rocks-lakes-windows-10-s.jpg);
+    background-size: cover;
+    color: chocolate;
+}
+
+input[type="text"], input[type="email"],input[type="password"],input[type="url"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    
+    background:url(../HD-wallpaper-nature-night-forest-rocks-lakes-windows-10-s.jpg);
+    background-size: cover;
+}
+
+input[type=""]:focus, input[type="url"]:focus {
+    outline: none;
+    border-color: #86b7fe;
+    box-shadow: 0 0 5px rgba(134, 183, 254, 0.5);
+     
+  ;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #ccc;
+}

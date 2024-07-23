@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url(../HD-wallpaper-nature-night-forest-rocks-lakes-windows-10-s.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 1550px;
+    margin: 0 auto;
+    
+}
+.services h2{
+    color: white;
+}
+.service-card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+}
+.service-card:hover {
+transform: scale(1.1);
+}
+
+header {
+    background:url(../HD-wallpaper-nature-night-forest-rocks-lakes-windows-10-s.jpg);
+    background-size: cover;
+    height: 50px;
+    border: 1px solid wheat;
+   overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.logo{
+    color: wheat;
+    margin-left: 20px;
+    font-size: 30px;
+   
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('your-image-url.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+   
+}
+.hero h1 {
+    font-size: 30px;
+}
+.cta-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    box-shadow:0px 0px 10px 0px gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+   
+    
+}
+.service-card:hover{
+
+}
+.service-card h3  {
+    color: chocolate;
+}
+.service-card p  {
+    color:red;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-links a {
+background-color: gray;
+padding: 10px 10px;
+border-radius: 5px;
+}
