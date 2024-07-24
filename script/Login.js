@@ -24,7 +24,7 @@ fetch("https://api.escuelajs.co/api/v1/auth/login",{
 .then(data => {
   if(data.access_token){
     localStorage.setItem( "token" , data.access_token)
-    location.replace(location.origin + "/inedex.html")
+    location.replace(window.origin + "/inedex.html")
   }
 })
  
